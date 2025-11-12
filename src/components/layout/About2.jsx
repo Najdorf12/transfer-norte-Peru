@@ -12,7 +12,6 @@ export default function About2() {
             className="object-cover"
             priority
             sizes="100vw"
-            quality={85}
           />
           <div className="absolute inset-0 bg-zinc-900/50"></div>
         </div>

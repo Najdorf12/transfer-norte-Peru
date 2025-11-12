@@ -40,7 +40,7 @@ export default function About() {
             <div className="text-xl md:text-2xl lg:text-3xl text-zinc-300 font-light">
               You've done enough to prove yourself.
             </div>
-            <p className="max-w-full  text-zinc-600 text-balance text-sm md:text-base leading-relaxed">
+            <p className="max-w-full  text-stone-500 text-balance text-sm md:text-base leading-relaxed">
               Creemos que el trayecto no es un mal necesario, sino el prólogo de
               tus mejores recuerdos. Que una parada inesperada para ver el
               atardecer puede ser el momento más memorable de un viaje. Que la
