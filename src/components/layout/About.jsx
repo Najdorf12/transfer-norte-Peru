@@ -54,7 +54,7 @@ export default function About() {
           <img
             src="/images/icon2.svg"
             alt="Beautiful landscape for your journey"
-            priority
+            priority="true"
             className="object-contain rounded-lg "
             style={{
               filter: "drop-shadow(0 0 0 transparent)",

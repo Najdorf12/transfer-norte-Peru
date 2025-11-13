@@ -5,7 +5,7 @@ export default function Service() {
     <section className="min-h-screen w-full py-12 px-16 text-balance relative">
       <article className="w-full flex flex-col gap-14 justify-between relative max-w-[600px] ">
         <h6 className="text-8xl text-zinc-500 font-medium">Frequently Asked  Questions <span className="text-amber-500">*</span></h6>
-        <p className="text-zinc-400 ">
+        <p className="text-stone-400 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
           repudiandae officiis tenetur laudantium odio placeat labore libero
           quisquam. Facilis, nobis?

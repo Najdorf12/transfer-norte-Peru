@@ -17,9 +17,9 @@ export default function About2() {
         </div>
         <article className="flex flex-col justify-between gap-20 relative text-end max-w-[600px] text-balance">
           <h6 className="text-8xl text-zinc-100 font-normal">
-            Travel in comfort * Arrive with confidence *
+            Travel in comfort  Arrive with confidence *
           </h6>
-          <div className="text-2xl text-zinc-300">
+          <div className="text-2xl text-stone-300">
             You’ve done enough to prove yourself
           </div>
         </article>
@@ -32,22 +32,22 @@ export default function About2() {
             alt="Beautiful landscape for your journey"
             priority
             className="object-contain"
-           
           />
         </div>
         <article className="text-balance flex flex-col justify-center gap-20 relative lg:w-1/2 h-full bg-amber-500  pl-12">
-         
           <h2 className="text-4xl text-zinc-100 max-w-[600px] ">
-            Discover your destination in style with a  <span className="text-zinc-600">dedicated *</span> chauffeur and tailored itineraries 
+            Discover your destination in style with a{" "}
+            <span className="text-stone-600">dedicated *</span> chauffeur and
+            tailored itineraries
           </h2>
-          <p className="max-w-[600px] text-zinc-200  ">
-            Creemos que el trayecto no es un mal necesario, sino el prólogo de
-            tus mejores recuerdos. Que una parada inesperada para ver el
-            atardecer puede ser el momento más memorable de un viaje. Que la
-            comodidad no es un lujo, sino un derecho del viajero. Nacimos en
-            Máncora, donde el desierto besa al mar. Aprendimos que cada curva de
-            esta carretera esconde una historia, y cada viajero busca la suya
-            propia.
+          <p className="max-w-[600px] text-stone-700  ">
+            Every detail of our service reflects our promise: to deliver safety,
+            discretion, and complete professionalism. Our chauffeurs are
+            carefully selected for their expertise and courtesy, our fleet
+            combines elegance with advanced safety features, and our operations
+            are guided by integrity. With us, travel becomes more than
+            transportation—it becomes a seamless experience designed around your
+            comfort and confidence.
           </p>
         </article>
       </section>
@@ -69,7 +69,7 @@ export default function About2() {
           <h6 className="text-8xl text-zinc-100 font-medium max-w-[900px]">
             Ready to redefine the way you travel?
           </h6>
-          <p className="max-w-[600px] text-zinc-400 text-balance leading-relaxed ">
+          <p className="max-w-[600px] text-stone-300 text-balance leading-relaxed ">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
             provident eveniet nihil a voluptatibus non pariatur deleniti nobis
             distinctio ea
