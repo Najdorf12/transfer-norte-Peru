@@ -16,7 +16,7 @@ export default function Home() {
           controls={false}
           className="absolute inset-0 w-full h-full object-cover z-10"
         />
-
+ 
         <div className="absolute inset-0 bg-zinc-900/50 z-20"></div>
 
         <article className="absolute inset-0 z-30 flex flex-col justify-center items-center text-center px-4">
@@ -32,26 +32,26 @@ export default function Home() {
 
         <div className="absolute z-20 bottom-28 left-20 flex flex-col justify-center items-center">
           <div className="flex justify-center items-center gap-9 ">
-            <div className="w-32 h-32 flex items-center justify-center rounded-full bg-amber-600 text-white">
+            <div className="w-32 h-32 flex items-center justify-center rounded-full bg-amber-600 text-zinc-200">
               Button1
             </div>
-            <div className="bg-black/20 border w-32 h-32 flex items-center justify-center rounded-full border-amber-600 text-zinc-400">
+            <div className="bg-zinc-800/40 border w-32 h-32 flex items-center justify-center rounded-full border-amber-600 text-zinc-400">
               Button2
             </div>
           </div>
         </div>
 
-        <div className="flex justify-center bg-black/20 items-center border-t w-full h-14 border-zinc-600 text-zinc-400 z-20 absolute bottom-0">
-          <div className="w-full border-r border-zinc-600 h-14 flex items-center justify-center">
-            LOREM IPSUM
+        <div className="flex justify-center bg-black/20 items-center border-t w-full h-14 border-stone-600 text-stone-500 z-20 absolute bottom-0">
+          <div className="w-full border-r border-stone-600 h-14 flex items-center justify-center">
+            Máncora Lorem
           </div>
-          <div className="w-full border-r border-zinc-600 h-14 flex items-center justify-center">
+          <div className="w-full border-r border-stone-600 h-14 flex items-center justify-center">
             Lorem
           </div>
           <div className="w-full  h-14 flex items-center justify-center">
-            Lorem
+            120 K followers
           </div>
-          <div className="w-full bg-amber-600 h-14 flex items-center justify-center text-zinc-100">
+          <div className="w-full bg-amber-600 h-14 flex items-center justify-center text-zinc-200">
             Contact
           </div>
         </div>

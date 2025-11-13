@@ -30,7 +30,7 @@ export default function About2() {
           <img
             src="/images/icon7.svg"
             alt="Beautiful landscape for your journey"
-            priority
+            priority="true"
             className="object-contain"
           />
         </div>
