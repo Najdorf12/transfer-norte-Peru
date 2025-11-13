@@ -2,7 +2,7 @@ import Accordion from "../ui/Accordion";
 
 export default function Service() {
   return (
-    <section className="min-h-screen w-full py-12 px-16 text-balance relative">
+    <section className="min-h-screen w-full py-12 px-16 text-balance relative ">
       <article className="w-full flex flex-col gap-14 justify-between relative max-w-[600px] ">
         <h6 className="text-8xl text-zinc-500 font-medium">Frequently Asked  Questions <span className="text-amber-500">*</span></h6>
         <p className="text-stone-400 ">
@@ -33,7 +33,7 @@ export default function Service() {
           answer="I am using Supabase!"
         />
       </div>
-        <div className=" absolute flex justify-end -bottom-[40%] -left-[76%] w-full ">
+        <div className=" absolute flex justify-end -bottom-[40%] -left-[79%] w-full ">
         {/*  <p className="text-6xl text-end text-balance max-w-[600px] text-zinc-700">
           YOUR TRAVEL START HERE
         </p> */}

@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <section className="relative w-full h-screen overflow-hidden">
         <Navbar />
-        <Video
+        {/*        <Video
           src={video01}
           autoPlay
           muted
@@ -15,13 +15,13 @@ export default function Home() {
           playsInline
           controls={false}
           className="absolute inset-0 w-full h-full object-cover z-10"
-        />
- 
+        /> */}
+
         <div className="absolute inset-0 bg-zinc-900/50 z-20"></div>
 
         <article className="absolute inset-0 z-30 flex flex-col justify-center items-center text-center px-4">
           <h1 className="text-9xl text-zinc-100 font-satoshi font-medium">
-            TRANSFER NORTE 
+            TRANSFER NORTE
           </h1>
           <div className="text-normal text-zinc-400 mt-6">
             {" "}
