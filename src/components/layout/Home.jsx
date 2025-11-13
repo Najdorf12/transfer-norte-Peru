@@ -15,13 +15,13 @@ export default function Home() {
           playsInline
           controls={false}
           className="absolute inset-0 w-full h-full object-cover z-10"
-        /> 
+        />
 
         <div className="absolute inset-0 bg-zinc-900/50 z-20"></div>
 
         <article className="absolute inset-0 z-30 flex flex-col justify-center items-center text-center px-4">
-          <h1 className="text-9xl text-zinc-200 font-satoshi font-medium">
-            TRANSFER NORTE
+          <h1 className="text-9xl text-zinc-100 font-satoshi font-medium">
+            TRANSFER NORTE 
           </h1>
           <div className="text-normal text-zinc-400 mt-6">
             {" "}
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
           </div>
         </div>
- 
+
         <div className="flex justify-center bg-black/20 items-center border-t w-full h-14 border-zinc-600 text-zinc-400 z-20 absolute bottom-0">
           <div className="w-full border-r border-zinc-600 h-14 flex items-center justify-center">
             LOREM IPSUM
