@@ -17,10 +17,6 @@ const cardsContent = [
     title: "Surf & Beach Shuttles",
     text: "Surf sessions, kitesurfing, diving",
   },
-  {
-    title: "Full-Day Chauffeur",
-    text: "Custom Adventures. Your Itinerary, Your Way",
-  },
 ];
 
 export default function Service() {
