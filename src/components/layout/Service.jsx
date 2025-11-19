@@ -50,7 +50,7 @@ export default function Service() {
 
       <section
         id="faq"
-        className="min-h-screen w-full py-20 px-16 text-balance relative "
+        className="min-h-screen w-full py-16 lg:pt-24 px-16 text-balance relative"
       >
         <article className="w-full flex flex-col gap-14 justify-between relative max-w-[600px] ">
           <h6 className="text-8xl text-zinc-500 font-medium">
