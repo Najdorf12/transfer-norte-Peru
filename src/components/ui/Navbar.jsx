@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 export default function Navbar() {
-  
   const phoneNumber = "51913607196";
   const message =
     "Hola, me gustaría obtener más información sobre sus servicios de transfer";
@@ -40,8 +39,8 @@ export default function Navbar() {
           </li>
         </ul>
         <div className="flex gap-6 justify-center pb-3 items-center border-b border-stone-400 text-amber-600 font-semibold">
-          <button>Button 1</button>
-          <button>Button 2</button>
+          <Link href="#faq">FAQ</Link>
+          <Link href="#faq">Pricing</Link>
         </div>
         <p className="text-stone-400">Book Your Journey</p>
       </div>

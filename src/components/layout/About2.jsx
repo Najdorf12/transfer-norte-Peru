@@ -1,6 +1,14 @@
 import Image from "next/image";
 
 export default function About2() {
+  const phoneNumber = "51913607196";
+  const message =
+    "Hola, me gustaría obtener más información sobre sus servicios de transfer";
+
+  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    message
+  )}`;
+
   return (
     <>
       <section className="h-[90vh] lg:h-screen relative w-full flex justify-end bg-zinc-800 px-24 py-20">
@@ -39,16 +47,19 @@ export default function About2() {
         </div>
         <article className="text-balance flex flex-col justify-center gap-20 relative lg:w-1/2 h-full bg-amber-500  pl-12">
           <h2 className="text-4xl text-zinc-100 max-w-[600px] ">
-            With us, travel becomes 
-            <span className="text-stone-600"> smooth, secure, and
-            genuinely enjoyable </span> *
+            With us, travel becomes
+            <span className="text-stone-600">
+              {" "}
+              smooth, secure, and genuinely enjoyable{" "}
+            </span>{" "}
+            *
           </h2>
           <p className="max-w-[600px] text-stone-700  ">
             Every detail of our service reflects our promise: to deliver safety,
             discretion, and complete professionalism. Our chauffeurs are
             carefully selected for their expertise and courtesy, our fleet
             combines elegance with advanced safety features, and our operations
-            are guided by integrity. 
+            are guided by integrity.
           </p>
         </article>
       </section>
@@ -75,8 +86,15 @@ export default function About2() {
             comfort, reliability, and personal service come together to elevate
             every moment of your journey.
           </p>
-          <button className=" border-2 px-16 py-1 border-amber-600 rounded-2xl text-stone-200 bg-black/20 ">
-            Contact us
+          <button className=" border-2 px-14 py-1 border-amber-600 rounded-2xl text-stone-200 bg-black/20 ">
+            <a
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className=""
+            >
+              Contact us
+            </a>
           </button>
         </article>
       </section>

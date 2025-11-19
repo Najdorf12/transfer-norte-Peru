@@ -1,4 +1,5 @@
 import Video from "next-video";
+import Link from "next/link";
 import video01 from "../../../videos/mancoravideo.mp4";
 import Navbar from "@/components/ui/Navbar";
 
@@ -52,7 +53,7 @@ export default function Home() {
             Tailored trips
           </div>
           <div className="w-full bg-amber-600 h-14 flex items-center justify-center text-zinc-200">
-            Contact
+            <Link href="#contact">Contact</Link>
           </div>
         </div>
       </section>
