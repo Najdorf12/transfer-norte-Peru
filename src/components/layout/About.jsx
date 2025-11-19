@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <section className="h-[90vh] w-full flex items-center lg:pl-36  ">
+      <section className="h-screen w-full flex items-center lg:pl-36  ">
         <article className="flex flex-col gap-42 relative">
           <div className="absolute -top-6 left-3 text-2xl text-zinc-400">
             ( 01 )
@@ -11,21 +11,19 @@ export default function About() {
           <div className="text-5xl text-zinc-500 text-balance w-full text-start ">
             <span className="pl-24">
               {" "}
-              From airport arrivals to private tours, every journey with us is
+              From seamless airport arrivals to curated private tours, every
+              journey with us is
             </span>
             <span className="text-amber-500 pl-4">
-              designed to be effortless, elegant, and completely worry-free
+              designed to feel effortless, elegant, and completely worry-free.
             </span>{" "}
-            lorem ipsum dolor sit, amet consectetur
           </div>
           <p className="max-w-[500px] text-zinc-400 text-balance self-end mr-20 text-sm">
-            Every detail of our service reflects our promise: to deliver safety,
-            discretion, and complete professionalism. Our chauffeurs are
-            carefully selected for their expertise and courtesy, our fleet
-            combines elegance with advanced safety features, and our operations
-            are guided by integrity. With us, travel becomes more than
-            transportation—it becomes a seamless experience designed around your
-            comfort and confidence.
+            Our chauffeurs are hand-selected for their expertise and courtesy,
+            our fleet blends comfort with advanced safety features, and our
+            operations are guided by integrity. With us, travel becomes more
+            than transportation — it becomes a refined experience built around
+            your comfort and confidence.
           </p>
         </article>
       </section>
@@ -38,14 +36,14 @@ export default function About() {
           </h6>
           <div className="flex flex-col gap-6 ">
             <div className="text-xl md:text-2xl lg:text-3xl text-zinc-300 font-light">
-              You've done enough to prove yourself.
+              Experience Máncora with comfort and style
             </div>
             <p className="max-w-full  text-stone-500 text-balance text-sm md:text-base leading-relaxed">
-              Creemos que el trayecto no es un mal necesario, sino el prólogo de
-              tus mejores recuerdos. Que una parada inesperada para ver el
-              atardecer puede ser el momento más memorable de un viaje. Que la
-              comodidad no es un lujo, sino un derecho del viajero. Nacimos en
-              Máncora, donde el desierto besa al mar.
+              Our fleet offers comfort, sophistication, and advanced safety
+              features. And every itinerary is shaped around your needs —
+              whether you're exploring beaches, cultural sites, dining spots, or
+              natural wonders. With us, travel becomes smooth, secure, and
+              genuinely enjoyable.
             </p>
           </div>
         </article>

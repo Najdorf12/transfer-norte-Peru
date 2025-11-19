@@ -12,7 +12,7 @@ export default function App() {
       <About />
       <About2 />
       <Service />
-     {/*  <Pricing /> */}
+     {/*  <Pricing />  */}
       <Contact />
     </main>
   );
