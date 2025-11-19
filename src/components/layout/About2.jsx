@@ -39,18 +39,16 @@ export default function About2() {
         </div>
         <article className="text-balance flex flex-col justify-center gap-20 relative lg:w-1/2 h-full bg-amber-500  pl-12">
           <h2 className="text-4xl text-zinc-100 max-w-[600px] ">
-            Discover your destination in style with a{" "}
-            <span className="text-stone-600">dedicated *</span> chauffeur and
-            tailored itineraries
+            With us, travel becomes 
+            <span className="text-stone-600"> smooth, secure, and
+            genuinely enjoyable </span> *
           </h2>
           <p className="max-w-[600px] text-stone-700  ">
             Every detail of our service reflects our promise: to deliver safety,
             discretion, and complete professionalism. Our chauffeurs are
             carefully selected for their expertise and courtesy, our fleet
             combines elegance with advanced safety features, and our operations
-            are guided by integrity. With us, travel becomes more than
-            transportation—it becomes a seamless experience designed around your
-            comfort and confidence.
+            are guided by integrity. 
           </p>
         </article>
       </section>

@@ -36,14 +36,13 @@ export default function About() {
           </h6>
           <div className="flex flex-col gap-6 ">
             <div className="text-xl md:text-2xl lg:text-3xl text-zinc-300 font-light">
-              Experience Máncora with comfort and style
+              Experience Máncora in style
             </div>
             <p className="max-w-full  text-stone-500 text-balance text-sm md:text-base leading-relaxed">
-              Our fleet offers comfort, sophistication, and advanced safety
-              features. And every itinerary is shaped around your needs —
-              whether you're exploring beaches, cultural sites, dining spots, or
-              natural wonders. With us, travel becomes smooth, secure, and
-              genuinely enjoyable.
+              Discover the vibrant spirit of Máncora in style, with a dedicated
+              chauffeur and tailored itineraries designed around your dreams. we
+              ensure your travel between experiences is as remarkable as the
+              destinations themselves.
             </p>
           </div>
         </article>

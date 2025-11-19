@@ -6,6 +6,10 @@ const cardsContent = [
     text: "Punta Sal, Los Órganos, Cabo Blanco",
   },
   {
+    title: "Airport Transfers",
+    text: "Custom Adventures. Your Itinerary, Your Way",
+  },
+  {
     title: "Gastronomy",
     text: "Trips for lunch, dinner, or sunset drinks.",
   },
@@ -18,29 +22,6 @@ const cardsContent = [
     text: "Custom Adventures. Your Itinerary, Your Way",
   },
 ];
-/* Airport Transfers
-
-Seamless pick-ups and drop-offs from Talara, Tumbes, and Piura airports — always private, punctual, and secure.
-
-Hotel Transfers
-
-Direct, comfortable transportation to your hotel or villa in Máncora, Las Pocitas, Vichayito, or Los Órganos.
-
-Private Tours
-
-Custom routes to beaches, viewpoints, natural attractions, and iconic sites — crafted around your interests.
-
-Surf & Activity Transfers
-
-Reliable transport for surf sessions, kitesurfing, diving, whale watching, horseback riding, and more.
-
-Gastronomy Routes
-
-Discover Máncora’s finest restaurants with curated trips for lunch, dinner, or sunset drinks.
-
-Full-Day Chauffeur Service
-
-A dedicated driver at your disposal for the day — flexible, discreet, and tailored to your schedule. */
 
 export default function Service() {
   return (
@@ -49,10 +30,18 @@ export default function Service() {
         id="services"
         className="h-[80vh] w-full py-12 px-16 text-balance relative "
       >
-        <h4 className="text-8xl text-zinc-500 font-medium">
-          Services <span className="text-amber-500">*</span>
-        </h4>
-        <div className="w-full mt-20 z-50 relative flex justify-start items-center gap-20">
+        <article className="flex flex-col max-w-[600px] gap-9">
+          <h4 className="text-8xl text-zinc-500 font-medium">
+            Services <span className="text-amber-500">*</span>
+          </h4>
+          <p className="text-stone-400 ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            repudiandae officiis tenetur laudantium odio placeat labore libero
+            quisquam. Facilis, nobis?
+          </p>
+        </article>
+
+        <div className="w-full mt-20 z-50 relative flex justify-center items-center gap-12 ">
           {cardsContent.map((card, i) => (
             <Card card={card} key={i} />
           ))}
@@ -61,19 +50,14 @@ export default function Service() {
 
       <section
         id="faq"
-        className="min-h-screen w-full py-12 px-16 text-balance relative "
+        className="min-h-screen w-full py-20 px-16 text-balance relative "
       >
         <article className="w-full flex flex-col gap-14 justify-between relative max-w-[600px] ">
           <h6 className="text-8xl text-zinc-500 font-medium">
             Frequently Asked Questions <span className="text-amber-500">*</span>
           </h6>
-          <p className="text-stone-400 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            repudiandae officiis tenetur laudantium odio placeat labore libero
-            quisquam. Facilis, nobis?
-          </p>
         </article>
-        <div className="mt-16 flex flex-col items-end">
+        <div className="mt-20 flex flex-col items-end">
           <Accordion
             title="Can I customize my itinerary?"
             answer="Absolutely. Whether you want to explore beaches, visit tourist spots, or enjoy local gastronomy, we tailor every route to your preferences."
