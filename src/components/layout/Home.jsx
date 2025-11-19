@@ -1,5 +1,5 @@
 import Video from "next-video";
-import video01 from "../../../videos/720.mp4";
+import video01 from "../../../videos/mancoravideo.mp4";
 import Navbar from "@/components/ui/Navbar";
 
 export default function Home() {
@@ -20,10 +20,10 @@ export default function Home() {
         <div className="absolute inset-0 bg-zinc-900/50 z-20"></div>
 
         <article className="absolute inset-0 z-30 flex flex-col justify-center items-center text-center px-4">
-          <h1 className="text-9xl text-zinc-100 font-satoshi font-medium">
+          <h1 className="text-9xl text-stone-200 font-satoshi font-medium">
             TRANSFER NORTE
           </h1>
-          <div className="text-normal text-zinc-400 mt-6">
+          <div className="text-normal text-stone-400 mt-6">
             {" "}
             Seamless private transport crafted for those who value safety,
             style, and peace of mind

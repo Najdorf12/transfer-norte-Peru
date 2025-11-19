@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <section className="h-screen w-full flex items-center lg:pl-36  ">
+      <section className="h-[90vh] w-full flex items-center lg:pl-36  ">
         <article className="flex flex-col gap-42 relative">
           <div className="absolute -top-6 left-3 text-2xl text-zinc-400">
             ( 01 )
