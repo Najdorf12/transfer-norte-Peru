@@ -10,30 +10,30 @@ export default function Form() {
         </div>
 
         <div className="mt-10 text-stone-300">
-          <h1 className="text-2xl font-semibold">
-            Let us transform your transportation into a highlight of your trip.
+          <h1 className="text-2xl font-semibold ">
+            Fill out the form and our team will respond shortly.
           </h1>
         </div>
 
-        <p className="text-sm mt-4 text-stone-400">
+        <p className="text-sm mt-4 text-stone-500">
           Let us take care of the details.
         </p>
 
-        <div className="mt-6 text-stone-100">
+        <div className="mt-6 text-stone-100 ">
           <input
             placeholder="Email"
             type="text"
-            className="p-2 px-3 border-b-0.5 focus:border-stone-200 w-full outline-none border-b border-stone-500 transition duration-300"
+            className="p-2 px-3 border-b-0.5 focus:border-amber-600 w-full outline-none border-b border-stone-500 transition duration-300 placeholder:text-stone-400"
           />
           <textarea
             placeholder="Message"
-            className="p-2 px-3 h-12 mt-3 border-b-0.5 focus:border-stone-200 w-full outline-none border-b border-stone-500 transition duration-300"
+            className="p-2 px-3 h-11 mt-3 border-b-0.5 placeholder:text-stone-400 focus:border-amber-600 w-full outline-none border-b border-stone-500 transition duration-300"
           />
         </div>
 
         <button
           type="submit"
-          className="bg-amber-600 text-stone-100 text-sm h-10 w-[130px] rounded-md font-semibold mt-5 shadow-md hover:bg-zinc-100 hover:text-amber-500 transition duration-300 hover:scale-105"
+          className="bg-amber-600 text-stone-100 font-semibold text-sm h-10 w-[130px] rounded-md mt-6 shadow-md hover:bg-zinc-200 hover:text-amber-500 transition duration-300 hover:scale-105"
         >
           Send
         </button>

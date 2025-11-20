@@ -75,18 +75,18 @@ export default function About2() {
             sizes="100vw"
             quality={85}
           />
-          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="absolute inset-0 bg-black/60"></div>
         </div>
         <article className="flex flex-col w-full justify-center items-center text-center relative z-10 gap-16">
           <h6 className="text-8xl text-stone-200 font-medium max-w-[900px]">
             Ready to redefine the way you travel?
           </h6>
-          <p className="max-w-[600px] text-stone-300 text-balance leading-relaxed ">
+          <p className="max-w-[600px] text-stone-400 text-balance leading-relaxed ">
             Experience a higher standard of private transport — one where
             comfort, reliability, and personal service come together to elevate
             every moment of your journey.
           </p>
-          <button className=" border-2 px-14 py-1 border-amber-600 rounded-2xl text-stone-200 bg-black/20 ">
+          <button className=" border-2 px-14 py-1 border-amber-600 rounded-2xl text-stone-200 bg-black/20 font-medium">
             <a
               href={whatsappLink}
               target="_blank"
