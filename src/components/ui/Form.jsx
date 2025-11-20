@@ -1,24 +1,22 @@
 export default function Form() {
   return (
     <>
-      <div className="relative border border-stone-600 shadow max-w-[420px] lg:py-12 p-8 rounded-md bg-zinc-800/80 ">
-    
+      <div className="relative border border-stone-600 shadow max-w-[420px] lg:py-12 p-8 rounded-md bg-zinc-800/80  text-balance">
         <div className="flex justify-between text-sm text-stone-300">
           <div className="flex items-center gap-2">
+            <p className="text-base pb-0.5">Transfer Norte</p>
             <div className="text-4xl text-amber-500">*</div>
-            <p className="font-bold pb-0.5">Transfer Norte</p>
           </div>
-         
         </div>
 
         <div className="mt-10 text-stone-300">
           <h1 className="text-2xl font-semibold">
-            Manage your produce business with us!
+            Let us transform your transportation into a highlight of your trip.
           </h1>
         </div>
 
         <p className="text-sm mt-4 text-stone-400">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, ea?
+          Let us take care of the details.
         </p>
 
         <div className="mt-6 text-stone-100">
@@ -33,13 +31,11 @@ export default function Form() {
           />
         </div>
 
-        
-
         <button
           type="submit"
-          className="bg-stone-600 text-white text-sm h-10 w-[130px] rounded-md font-semibold mt-5 shadow-md hover:bg-blue-700 transition duration-300 hover:scale-105"
+          className="bg-amber-600 text-stone-100 text-sm h-10 w-[130px] rounded-md font-semibold mt-5 shadow-md hover:bg-zinc-100 hover:text-amber-500 transition duration-300 hover:scale-105"
         >
-          Get Started
+          Send
         </button>
       </div>
     </>

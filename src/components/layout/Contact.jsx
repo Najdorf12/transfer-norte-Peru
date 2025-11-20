@@ -24,11 +24,11 @@ export default function Contact() {
     >
       <article className="relative z-50 flex flex-col self-start gap-9 lg:w-1/2 py-12 px-12">
         <h6 className="text-9xl text-zinc-200 font-medium">GET IN TOUCH</h6>
-       <p className=" z-50 text-zinc-500  max-w-[400px] ">
+       <p className=" z-50 text-zinc-500  max-w-[400px] pl-3">
         Contact our team today for a personalized quote or to arrange your next
         effortless journey.
       </p>
-      <ul className="text-stone-500 flex flex-col gap-2 mt-12 text-base">
+      <ul className="text-stone-500 flex flex-col gap-2 mt-12 pl-3">
         <li className="flex gap-2">Phone: <span className="text-amber-500"> 51913607196</span></li>
         <li className="flex gap-2">Email: <span className="text-amber-500"> transfernorteperu@gmail.com</span></li>
       </ul>
@@ -51,8 +51,8 @@ export default function Contact() {
         <Form />
       </div>
 
-      <div className="w-1/2 h-0.5 absolute left-12 bottom-12 bg-amber-500 text-zinc-500 ">
-          Trusted by travelers worldwide
+      <div className="w-1/2 h-0.5 absolute left-12 bottom-12 bg-amber-600 text-zinc-500 ">
+      <legend className="mt-2">Trusted by travelers worldwide</legend>
       </div>
     </section>
   );
