@@ -10,9 +10,9 @@ export default function Navbar() {
   )}`;
 
   return (
-    <nav className="w-full text-sm absolute top-0 font-satoshi flex justify-between text-stone-300 z-50 px-9 pt-4">
+    <nav className="w-full text-sm absolute top-0 font-satoshi flex justify-between text-stone-200 z-50 px-9 pt-4">
       <div className="flex flex-col gap-2 w-[310px]">
-        <ul className="flex items-center justify-center gap-12 border-b border-stone-400 pb-3 ">
+        <ul className="flex items-center justify-center gap-12 border-b border-stone-500 pb-3 ">
           <li>
             <Link
               href="#about"
@@ -38,7 +38,7 @@ export default function Navbar() {
             </Link>
           </li>
         </ul>
-        <div className="flex gap-6 justify-center pb-3 items-center border-b border-stone-400 text-amber-600 font-semibold">
+        <div className="flex gap-6 justify-center pb-3 items-center border-b border-stone-500 text-amber-600 font-semibold">
           <Link href="#faq">FAQ</Link>
           <Link href="#faq">Pricing</Link>
         </div>
@@ -46,7 +46,7 @@ export default function Navbar() {
       </div>
 
       <div className="flex flex-col gap-3">
-        <div className="flex flex-col gap-3 border-b border-stone-400 pb-3 w-[290px] ">
+        <div className="flex flex-col gap-3 border-b border-stone-500 pb-3 w-[290px] ">
           <p className="">Contact our team today</p>
           <div className="flex items-center gap-12 text-amber-600 font-semibold ">
             +51 913 607 196{" "}
@@ -54,7 +54,7 @@ export default function Navbar() {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="border-b text-stone-300 font-normal hover:text-amber-600 transition-colors cursor-pointer"
+              className="border-b text-stone-400 font-normal hover:text-amber-600 transition-colors cursor-pointer"
             >
               WhatsApp
             </a>

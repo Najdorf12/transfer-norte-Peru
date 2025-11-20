@@ -20,34 +20,39 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative w-full h-screen text-balance bg-zinc-800 flex flex-col items-end gap-12  px-20 overflow-hidden"
+      className="relative h-screen bg-zinc-800  overflow-hidden flex items-center justify-center  lg:flex-row"
     >
-      <div>
-        <article className="relative z-50 flex flex-col py-12">
-          <h6 className="text-8xl text-zinc-200">GET IN TOUCH</h6>
-        </article>
-        <p className="relative z-50 text-zinc-100  max-w-[400px] border-b border-amber-500  pb-3">
-          Contact our team today for a personalized quote or to arrange your
-          next effortless journey.
-        </p>
-      </div>
+      <article className="relative z-50 flex flex-col self-start gap-9 lg:w-1/2 py-12 px-12">
+        <h6 className="text-9xl text-zinc-200 font-medium">GET IN TOUCH</h6>
+       <p className=" z-50 text-zinc-500  max-w-[400px] ">
+        Contact our team today for a personalized quote or to arrange your next
+        effortless journey.
+      </p>
+      <ul className="text-stone-500 flex flex-col gap-2 mt-12 text-base">
+        <li className="flex gap-2">Phone: <span className="text-amber-500"> 51913607196</span></li>
+        <li className="flex gap-2">Email: <span className="text-amber-500"> transfernorteperu@gmail.com</span></li>
+      </ul>
+      </article> 
 
-      <div className="w-1/2 flex justify-center items-center ">
-        <div className="flex items-center justify-center absolute inset-0 z-50  w-1/2">
-          <Form />
-        </div>
+      <div className="flex items-center justify-center absolute right-0 w-1/2 ">
 
-        <div className=" absolute inset-0 flex justify-center  items-center z-30 w-1/2  ">
           <img
             src="/images/icon6.svg"
             alt="Beautiful landscape for your journey"
             priority="true"
-            className="object-contain w-full h-full max-w-[800px] z-40"
+            className="object-contain rounded-lg max-w-[700px] "
             style={{
               filter: "drop-shadow(0 0 0 transparent)",
+              stroke: "none",
             }}
           />
-        </div>
+      </div>
+      <div className="relative w-full h-screen flex justify-center items-center lg:w-1/2">
+        <Form />
+      </div>
+
+      <div className="w-1/2 h-0.5 absolute left-12 bottom-12 bg-amber-500 text-zinc-500 ">
+          Trusted by travelers worldwide
       </div>
     </section>
   );

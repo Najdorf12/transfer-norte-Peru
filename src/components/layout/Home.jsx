@@ -21,17 +21,17 @@ export default function Home() {
         <div className="absolute inset-0 bg-zinc-900/50 z-20"></div>
 
         <article className="absolute inset-0 z-30 flex flex-col justify-center items-center text-center px-4">
-          <h1 className="text-9xl text-stone-200 font-satoshi font-medium">
+          <h1 className="text-9xl text-white font-satoshi font-medium">
             TRANSFER NORTE
           </h1>
-          <div className="text-normal text-stone-400 mt-6">
+          <div className="text-normal text-stone-300 mt-6">
             {" "}
             Seamless private transport crafted for those who value safety,
             style, and peace of mind
           </div>
         </article>
-
-        {/*     <div className="absolute z-20 bottom-28 left-20 flex flex-col justify-center items-center">
+        {/* 
+             <div className="absolute z-20 bottom-28 left-20 flex flex-col justify-center items-center">
           <div className="flex justify-center items-center gap-9 ">
             <div className="w-32 h-32 flex items-center justify-center rounded-full bg-amber-600 text-zinc-200">
               Button1
@@ -40,21 +40,25 @@ export default function Home() {
               Button2
             </div>
           </div>
-        </div> */}
+        </div>  */}
 
-        <div className="flex justify-center bg-black/20 items-center border-t w-full h-14 border-stone-600 text-stone-500 z-20 absolute bottom-0">
+        <div className="flex justify-center bg-black/20 items-center border-t w-full h-12 border-stone-600 text-stone-500 z-50 absolute bottom-0">
           <div className="w-full border-r border-stone-600 h-14 flex items-center justify-center">
             Trusted by travelers worldwide
           </div>
-          <div className="w-full border-r border-stone-600 h-14 flex items-center justify-center">
+          <div className="w-full border-r border-stone-600 h-12 flex items-center justify-center">
             Certified chauffeurs
           </div>
-          <div className="w-full  h-14 flex items-center justify-center">
+          <div className="w-full  h-12 flex items-center justify-center">
             Tailored trips
           </div>
-          <div className="w-full bg-amber-600 h-14 flex items-center justify-center text-zinc-200">
-            <Link href="#contact">Contact</Link>
-          </div>
+
+          <Link
+            href="#contact"
+            className="w-full bg-amber-600 h-12 flex items-center justify-center text-stone-200 cursor-pointer z-50 relative hover:bg-zinc-800 duration-300"
+          >
+            Contact
+          </Link>
         </div>
       </section>
     </>

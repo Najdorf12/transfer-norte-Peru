@@ -7,7 +7,7 @@ import Contact from "@/components/layout/Contact";
 
 export default function App() {
   return (
-    <main>
+    <main className="overflow-hidden">
       <Home />
       <About />
       <About2 />
