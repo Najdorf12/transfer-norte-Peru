@@ -81,7 +81,7 @@ export default function About2() {
           <h6 className="text-5xl md:text-7xl xl:text-8xl text-zinc-200 font-medium max-w-[900px]">
             Ready to redefine the way you travel?
           </h6>
-          <p className="mt-9 text-sm max-w-[600px] text-zinc-300 text-balance  ">
+          <p className="mt-9 text-sm max-w-[600px] text-zinc-300 text-balance lg:text-base ">
             Experience a higher standard of private transport. One where
             comfort, reliability, and personal service come together
           </p>

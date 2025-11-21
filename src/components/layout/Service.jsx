@@ -27,7 +27,7 @@ export default function Service() {
         className="w-full py-20 md:px-16 text-balance relative lg:py-20 "
       >
         <article className="flex flex-col max-w-[600px] px-6 gap-9">
-          <h4 className="text-5xl md:text-7xl xl:text-8xl 2xl:text-8xl text-zinc-500 font-medium">
+          <h4 className="text-5xl md:text-7xl xl:text-8xl 2xl:text-8xl text-zinc-500">
             Services <span className="text-amber-500">*</span>
           </h4>
           <p className="text-sm md:text-base text-stone-400 ">
@@ -36,9 +36,9 @@ export default function Service() {
           </p>
         </article>
 
-        <div className="w-full z-50 relative flex flex-wrap justify-center items-center gap-3 mt-16 md:mt-20 md:gap-12">
+        <div className="w-full z-50 relative flex flex-wrap justify-center items-center gap-3 mt-16 md:mt-20 lg:gap-12">
           {cardsContent.map((card, i) => (
-            <Card card={card} key={i} />
+            <Card card={card} index={i} key={i} />
           ))}
         </div>
       </section>
@@ -48,7 +48,7 @@ export default function Service() {
         className="text-balance relative min-h-screen w-full px-6 lg:px-16"
       >
         <article className="w-full relative max-w-[500px]">
-          <h6 className="text-5xl md:text-7xl xl:text-8xl 2xl:text-8xl text-zinc-500 font-medium">
+          <h6 className="text-5xl md:text-7xl xl:text-8xl 2xl:text-8xl text-zinc-500">
             Frequently Asked Questions <span className="text-amber-500">*</span>
           </h6>
         </article>

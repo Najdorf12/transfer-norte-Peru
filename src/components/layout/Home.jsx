@@ -24,7 +24,7 @@ export default function Home() {
           <h1 className="text-6xl lg:text-8xl xl:text-9xl text-white font-satoshi font-medium">
             TRANSFER NORTE
           </h1>
-          <div className="text-sm text-stone-300 mt-9">
+          <div className="text-sm text-stone-300 mt-12 max-w-[300px]">
             {" "}
             Seamless private transport crafted for those who value safety,
             style, and peace of mind

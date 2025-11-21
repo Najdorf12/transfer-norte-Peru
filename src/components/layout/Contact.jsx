@@ -20,9 +20,9 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative h-screen bg-zinc-800 overflow-hidden flex flex-col gap-6 md:items-center pt-14 md:justify-center lg:flex-row"
+      className="relative h-screen bg-zinc-800 overflow-hidden flex flex-col gap-6 md:items-center md:justify-center lg:flex-row"
     >
-      <article className=" relative z-50 flex flex-col self-start lg:gap-9 lg:w-1/2 px-6">
+      <article className=" pt-14 relative z-50 flex flex-col self-start lg:gap-9 lg:w-1/2 px-6">
         <h6 className="text-6xl md:text-9xl text-zinc-200 font-medium">
           GET IN TOUCH
         </h6>
@@ -32,7 +32,7 @@ export default function Contact() {
         </p>
       </article>
 
-      <div className="flex items-center justify-center absolute right-0 w-full md:w-1/2 ">
+      <div className="flex items-center justify-center absolute right-0 w-full h-full md:w-1/2 ">
         <img
           src="/images/icon6.svg"
           alt="Beautiful landscape for your journey"
@@ -48,7 +48,7 @@ export default function Contact() {
         <Form />
       </div>
 
-      <div className="w-1/2 absolute left-1 bottom-2 md:left-12 md:bottom-6 px-3  text-zinc-500  text-sm md:text-base">
+      <div className="w-1/2 absolute left-1 bottom-2 md:left-12 md:bottom-6 px-3 text-zinc-500  text-sm md:text-base">
         <ul className="text-stone-500 flex flex-col gap-2 ">
           <li className="flex gap-2">
             Phone: <span className="text-amber-500"> 51913607196</span>

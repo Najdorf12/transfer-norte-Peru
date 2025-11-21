@@ -8,7 +8,7 @@ const Accordion = ({ title, answer }) => {
     <div className="py-3 max-w-[700px] border-b border-amber-500">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between items-center w-full text-stone-500 font-medium md:text-lg cursor-pointer"
+        className="flex justify-between items-center w-full text-stone-500  md:text-lg cursor-pointer"
       >
         <span>{title}</span>
         

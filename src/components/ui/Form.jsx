@@ -1,7 +1,7 @@
 export default function Form() {
   return (
     <>
-      <div className="relative border border-stone-600 shadow max-w-[420px] lg:py-12 p-6 md:p-8 rounded-md bg-zinc-800/60  text-balance">
+      <div className="relative border border-stone-600 shadow max-w-[420px] lg:py-12 p-7 md:p-8 rounded-md bg-zinc-800/60  text-balance">
         <div className="flex justify-between text-sm text-stone-300">
           <div className="flex items-center gap-2">
             <p className="text-base pb-0.5">Transfer Norte</p>
