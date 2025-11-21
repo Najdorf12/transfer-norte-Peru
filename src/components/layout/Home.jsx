@@ -6,9 +6,9 @@ import Navbar from "@/components/ui/Navbar";
 export default function Home() {
   return (
     <>
-      <section className="relative w-full h-screen overflow-hidden">
+      <section className="relative w-full h-dvh overflow-hidden">
         <Navbar />
-         <Video
+          <Video
           src={video01}
           autoPlay
           muted
@@ -16,7 +16,7 @@ export default function Home() {
           playsInline
           controls={false}
           className="absolute inset-0 w-full h-full object-cover z-10"
-        />  
+        />   
  
         <div className="absolute inset-0 bg-zinc-900/50 z-20"></div>
 

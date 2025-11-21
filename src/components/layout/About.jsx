@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <section className="h-[90vh] w-full flex items-center lg:pl-36  ">
+      <section className="h-[90vh] w-full flex items-center md:h-screen lg:pl-36  ">
         <article className="flex flex-col justify-evenly relative px-6 h-full">
-          <div className="text-2xl md:text-4xl xl:text-5xl text-zinc-500 text-balance w-full text-start relative">
+          <div className="text-3xl md:text-4xl xl:text-5xl text-zinc-500 text-balance w-full text-start relative">
             <div className="absolute -top-3 left-5 md:-top-6 md:left-3 text-zinc-400 text-xl md:text-2xl ">
               ( 01 )
             </div>
@@ -28,7 +28,7 @@ export default function About() {
         </article>
       </section>
 
-      <section className="relative h-screen w-full flex flex-col bg-zinc-800 md:flex-row overflow-hidden">
+      <section className="relative h-[90dvh]  w-full flex flex-col bg-zinc-800 md:flex-row overflow-hidden md:h-screen">
         <article className="flex flex-col justify-between h-full relative z-10 w-full px-6 py-12 lg:px-20 lg:py-20  md:w-1/2  ">
           <h6 className="text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-zinc-200 font-medium">
             Book Your <br />
@@ -47,7 +47,7 @@ export default function About() {
           </div>
         </article>
 
-        <div className="absolute h-screen left-1/2 w-full md:w-1/2 flex justify-center items-center md:p-6">
+        <div className="absolute h-full left-1/2 w-full flex justify-center items-center md:p-6 md:left-1/2 md:w-1/2 ">
           <img
             src="/images/icon2.svg"
             alt="Beautiful landscape for your journey"
