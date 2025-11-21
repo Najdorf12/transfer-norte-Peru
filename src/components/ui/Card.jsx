@@ -1,7 +1,7 @@
 export default function Card({ card }) {
   const { title, text } = card;
   return (
-    <div className="text-balance w-46 h-[280px] border border-zinc-500 z-50 relative rounded-3xl p-4 flex flex-col justify-between hover:bg-amber-500 duration-300 group hover:scale-105 first-of-type:bg-stone-700 md:w-56">
+    <div className="text-balance w-46 h-[280px] border border-zinc-500 z-50 relative rounded-3xl p-4 flex flex-col justify-between hover:bg-amber-500 duration-300 group hover:scale-105 first-of-type:bg-stone-700 md:w-56 md:h-[330px] ">
       <div className="text-6xl text-amber-600 group-hover:text-white duration-300">
         *
       </div>

@@ -38,7 +38,7 @@ export default function About() {
             <div className="text-lg lg:text-2xl xl:text-3xl text-zinc-300 font-light">
               Experience Máncora in style
             </div>
-            <p className="max-w-full  text-stone-500 text-balance text-sm lg:text-base leading-relaxed">
+            <p className="max-w-full  text-stone-500 text-balance text-sm xl:text-base leading-relaxed">
               Discover the vibrant spirit of Máncora in style, with a dedicated
               chauffeur and tailored itineraries designed around your dreams. we
               ensure your travel between experiences is as remarkable as the
@@ -47,7 +47,7 @@ export default function About() {
           </div>
         </article>
 
-        <div className="absolute h-screen left-1/2 w-full md:w-1/2 flex justify-center items-center lg:p-9">
+        <div className="absolute h-screen left-1/2 w-full md:w-1/2 flex justify-center items-center md:p-6">
           <img
             src="/images/icon2.svg"
             alt="Beautiful landscape for your journey"

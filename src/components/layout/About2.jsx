@@ -23,11 +23,11 @@ export default function About2() {
           />
           <div className="absolute inset-0 bg-zinc-900/50"></div>
         </div>
-        <article className="flex flex-col justify-between gap-20 relative text-end max-w-[500px] lg:max-w-[600px] text-balance">
-          <h6 className="text-6xl lg:text-8xl 2xl:text-9xl text-stone-200 font-normal">
+        <article className="flex flex-col justify-between gap-20 relative text-end max-w-[500px] xl:max-w-[600px] text-balance">
+          <h6 className="text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-stone-200 font-normal">
             Travel in comfort Arrive with confidence *
           </h6>
-          <div className="text-lg md:text-2xl text-stone-300">
+          <div className="text-lg md:text-xl xl:text-2xl text-stone-300">
             Your private journey begins with safety, elegance, and absolute ease
           </div>
         </article>
@@ -78,7 +78,7 @@ export default function About2() {
           <div className="absolute inset-0 bg-black/60"></div>
         </div>
         <article className="flex flex-col w-full justify-center items-center text-center relative z-10 px-2 gap-14 md:gap-16">
-          <h6 className="text-5xl md:text-8xl text-zinc-200 font-medium max-w-[900px]">
+          <h6 className="text-5xl md:text-7xl xl:text-8xl text-zinc-200 font-medium max-w-[900px]">
             Ready to redefine the way you travel?
           </h6>
           <p className="text-sm max-w-[600px] text-zinc-300 text-balance  ">
