@@ -4,11 +4,11 @@ export default function About() {
   return (
     <>
       <section className="h-[90vh] w-full flex items-center lg:pl-36  ">
-        <article className="flex flex-col gap-42 relative">
-          <div className="absolute -top-6 left-3 text-2xl text-zinc-400">
-            ( 01 )
-          </div>
-          <div className="text-5xl text-zinc-500 text-balance w-full text-start ">
+        <article className="flex flex-col justify-evenly relative px-6 h-full">
+          <div className="text-2xl md:text-4xl xl:text-5xl text-zinc-500 text-balance w-full text-start relative">
+            <div className="absolute -top-3 left-5 md:-top-6 md:left-3 text-zinc-400 text-xl md:text-2xl ">
+              ( 01 )
+            </div>
             <span className="pl-24">
               {" "}
               From seamless airport arrivals to curated private tours, every
@@ -18,7 +18,7 @@ export default function About() {
               designed to feel effortless, elegant, and completely worry-free.
             </span>{" "}
           </div>
-          <p className="max-w-[500px] text-zinc-400 text-balance self-end mr-20 text-sm">
+          <p className="max-w-[500px] text-zinc-400 text-balance self-end text-sm lg:mr-12">
             Our chauffeurs are hand-selected for their expertise and courtesy,
             our fleet blends comfort with advanced safety features, and our
             operations are guided by integrity. With us, travel becomes more
@@ -29,16 +29,16 @@ export default function About() {
       </section>
 
       <section className="relative h-screen w-full flex flex-col bg-zinc-800 md:flex-row overflow-hidden">
-        <article className="flex flex-col justify-between relative z-10 w-full px-9 py-12 lg:px-24 lg:py-20  md:w-1/2  ">
-          <h6 className="text-8xl text-zinc-200 font-medium">
+        <article className="flex flex-col justify-between h-full relative z-10 w-full px-6 py-12 lg:px-20 lg:py-20  md:w-1/2  ">
+          <h6 className="text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-zinc-200 font-medium">
             Book Your <br />
             Journey
           </h6>
           <div className="flex flex-col gap-6 ">
-            <div className="text-xl md:text-2xl lg:text-3xl text-zinc-300 font-light">
+            <div className="text-lg lg:text-2xl xl:text-3xl text-zinc-300 font-light">
               Experience Máncora in style
             </div>
-            <p className="max-w-full  text-stone-500 text-balance text-sm md:text-base leading-relaxed">
+            <p className="max-w-full  text-stone-500 text-balance text-sm lg:text-base leading-relaxed">
               Discover the vibrant spirit of Máncora in style, with a dedicated
               chauffeur and tailored itineraries designed around your dreams. we
               ensure your travel between experiences is as remarkable as the
@@ -47,7 +47,7 @@ export default function About() {
           </div>
         </article>
 
-        <div className="w-full md:w-1/2 flex justify-center items-center lg:p-9">
+        <div className="absolute h-screen left-1/2 w-full md:w-1/2 flex justify-center items-center lg:p-9">
           <img
             src="/images/icon2.svg"
             alt="Beautiful landscape for your journey"

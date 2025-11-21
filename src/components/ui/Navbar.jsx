@@ -10,7 +10,7 @@ export default function Navbar() {
   )}`;
 
   return (
-    <nav className="w-full text-sm absolute top-0 font-satoshi flex justify-between text-stone-200 z-50 px-9 pt-4">
+    <nav className="w-full text-sm pt-4 text-stone-200 z-50 absolute top-0  flex justify-center md:justify-between md:px-9 ">
       <div className="flex flex-col gap-2 w-[310px]">
         <ul className="flex items-center justify-center gap-12 border-b border-stone-500 pb-3 ">
           <li>
@@ -45,7 +45,7 @@ export default function Navbar() {
         <p className="text-stone-400">Book Your Journey</p>
       </div>
 
-      <div className="flex flex-col gap-3">
+      <div className="hidden md:flex md:flex-col gap-3 ">
         <div className="flex flex-col gap-3 border-b border-stone-500 pb-3 w-[290px] ">
           <p className="">Contact our team today</p>
           <div className="flex items-center gap-12 text-amber-600 font-semibold ">

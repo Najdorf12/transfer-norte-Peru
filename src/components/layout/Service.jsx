@@ -24,20 +24,19 @@ export default function Service() {
     <>
       <section
         id="services"
-        className="h-[80vh] w-full py-12 px-16 text-balance relative "
+        className="md:h-[80vh] w-full py-12 md:px-16 text-balance relative "
       >
-        <article className="flex flex-col max-w-[600px] gap-9">
-          <h4 className="text-8xl text-zinc-500 font-medium">
+        <article className="flex flex-col max-w-[600px] px-6 gap-9">
+          <h4 className="text-5xl md:text-8xl text-zinc-500 font-medium">
             Services <span className="text-amber-500">*</span>
           </h4>
-          <p className="text-stone-400 ">
+          <p className="text-sm md:text-base text-stone-400 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            repudiandae officiis tenetur laudantium odio placeat labore libero
-            quisquam. Facilis, nobis?
+            repudiandae officiis tenetur laudantium odio placeat labore
           </p>
         </article>
 
-        <div className="w-full mt-20 z-50 relative flex justify-center items-center gap-12 ">
+        <div className="w-full z-50 relative flex flex-wrap justify-center items-center gap-2 mt-16 md:mt-20 md:gap-12">
           {cardsContent.map((card, i) => (
             <Card card={card} key={i} />
           ))}
@@ -46,14 +45,15 @@ export default function Service() {
 
       <section
         id="faq"
-        className="min-h-screen w-full py-16 lg:pt-24 px-16 text-balance relative"
+        className="min-h-screen w-full py-12 px-6 lg:pt-24 lg:px-16 text-balance relative"
       >
         <article className="w-full flex flex-col gap-14 justify-between relative max-w-[600px] ">
-          <h6 className="text-8xl text-zinc-500 font-medium">
+          <h6 className="text-5xl md:text-8xl text-zinc-500 font-medium">
             Frequently Asked Questions <span className="text-amber-500">*</span>
           </h6>
         </article>
-        <div className="mt-20 flex flex-col items-end">
+
+        <div className="mt-12 md:mt-20 flex flex-col items-end">
           <Accordion
             title="Can I customize my itinerary?"
             answer="Absolutely. Whether you want to explore beaches, visit tourist spots, or enjoy local gastronomy, we tailor every route to your preferences."
@@ -67,7 +67,7 @@ export default function Service() {
             answer="Yes. We’re available at any time of the day to accommodate arrivals, early departures, or late-night activities."
           />
           <Accordion
-            title="Do you offer airport pick-up and drop-off services?"
+            title="Do you offer drop-off services?"
             answer="Yes. We provide private, punctual transfers from Talara, Tumbes, and Piura airports directly to your hotel or villa."
           />
           <Accordion
@@ -75,7 +75,8 @@ export default function Service() {
             answer="Our rates typically include the private vehicle, our professional chauffeur, fuel, and all associated taxes. "
           />
         </div>
-        <div className=" absolute flex justify-end -bottom-[40%] -left-[79%] w-full ">
+
+        <div className="absolute inset-0 -bottom-full w-full ">
           <img
             src="/images/icon1.svg"
             alt="Beautiful landscape for your journey"

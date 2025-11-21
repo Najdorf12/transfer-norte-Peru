@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <section className="relative w-full h-screen overflow-hidden">
         <Navbar />
-       <Video
+         <Video
           src={video01}
           autoPlay
           muted
@@ -16,15 +16,15 @@ export default function Home() {
           playsInline
           controls={false}
           className="absolute inset-0 w-full h-full object-cover z-10"
-        /> 
-
+        />  
+ 
         <div className="absolute inset-0 bg-zinc-900/50 z-20"></div>
 
         <article className="absolute inset-0 z-30 flex flex-col justify-center items-center text-center px-4">
-          <h1 className="text-9xl text-white font-satoshi font-medium">
+          <h1 className="text-6xl lg:text-8xl xl:text-9xl text-white font-satoshi font-medium">
             TRANSFER NORTE
           </h1>
-          <div className="text-normal text-stone-300 mt-6">
+          <div className="text-sm text-stone-300 mt-9">
             {" "}
             Seamless private transport crafted for those who value safety,
             style, and peace of mind
@@ -42,20 +42,20 @@ export default function Home() {
           </div>
         </div>  */}
 
-        <div className="flex justify-center bg-black/20 items-center border-t w-full h-12 border-stone-600 text-stone-500 z-50 absolute bottom-0">
-          <div className="w-full border-r border-stone-600 h-14 flex items-center justify-center">
+        <div className="text-sm flex justify-center bg-black/20 items-center border-t w-full h-9 md:h-12 border-stone-600 text-stone-500 z-50 absolute bottom-0 md:text-base">
+          <div className="hidden w-full border-r border-stone-600 h-9 md:h-12 md:flex items-center justify-center ">
             Trusted by travelers worldwide
           </div>
-          <div className="w-full border-r border-stone-600 h-12 flex items-center justify-center">
+          <div className="w-full border-r border-stone-600 h-9 md:h-12 flex items-center justify-center">
             Certified chauffeurs
           </div>
-          <div className="w-full  h-12 flex items-center justify-center">
+          <div className="w-full  h-9 md:h-12 flex items-center justify-center">
             Tailored trips
           </div>
 
           <Link
             href="#contact"
-            className="w-full bg-amber-600 h-12 flex items-center justify-center text-stone-200 cursor-pointer z-50 relative hover:bg-zinc-800 duration-300"
+            className="w-full bg-amber-600 h-9 md:h-12 flex items-center justify-center text-stone-200 cursor-pointer z-50 relative hover:bg-zinc-800 duration-300"
           >
             Contact
           </Link>
