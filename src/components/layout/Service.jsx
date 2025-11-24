@@ -24,7 +24,7 @@ export default function Service() {
     <>
       <section
         id="services"
-        className="w-full py-20 md:px-16 text-balance relative lg:py-20 "
+        className="w-full py-16 lg:px-16 text-balance relative "
       >
         <article className="flex flex-col max-w-[600px] px-6 gap-9">
           <h4 className="text-5xl md:text-7xl xl:text-8xl 2xl:text-8xl text-zinc-500">
@@ -45,7 +45,7 @@ export default function Service() {
 
       <section
         id="faq"
-        className="text-balance relative min-h-screen w-full px-6 lg:px-16"
+        className="text-balance relative min-h-screen w-full px-6 pt-6 lg:px-16"
       >
         <article className="w-full relative max-w-[500px]">
           <h6 className="text-5xl md:text-7xl xl:text-8xl 2xl:text-8xl text-zinc-500">
