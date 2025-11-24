@@ -5,15 +5,15 @@ const Accordion = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="py-3 max-w-[700px] border-b border-amber-500">
+    <div className="py-3 max-w-[700px] rounded-sm border-b border-amber-500 group lg:px-2">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between items-center w-full text-stone-500  md:text-lg cursor-pointer"
+        className="flex justify-between items-center w-full text-stone-500  md:text-lg cursor-pointer group-hover:text-amber-500 duration-150"
       >
         <span>{title}</span>
         
         <svg
-          className="fill-amber-500 shrink-0 ml-8"
+          className="fill-amber-500 shrink-0 ml-8 group-hover:rotate-90 group-hover:duration-300"
           width="16"
           height="16"
           xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ const Accordion = ({ title, answer }) => {
             width="16"
             height="2"
             rx="1"
-            className={`transform origin-center transition duration-200 ease-out ${
+            className={`transform origin-center transition duration-200 ease-out   ${
               accordionOpen && "rotate-180"
             }`}
           />
@@ -32,7 +32,7 @@ const Accordion = ({ title, answer }) => {
             width="16"
             height="2"
             rx="1"
-            className={`transform origin-center rotate-90 transition duration-200 ease-out ${
+            className={`transform origin-center rotate-90 transition duration-200 ease-out  ${
               accordionOpen && "rotate-180"
             }`}
           />

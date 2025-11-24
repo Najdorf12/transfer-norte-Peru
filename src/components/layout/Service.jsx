@@ -45,7 +45,7 @@ export default function Service() {
 
       <section
         id="faq"
-        className="text-balance relative min-h-screen w-full px-6 pt-6 lg:px-16"
+        className="text-balance relative min-h-screen w-full px-6 pt-6 lg:px-16 py-3 lg:py-6"
       >
         <article className="w-full relative max-w-[500px]">
           <h6 className="text-5xl md:text-7xl xl:text-8xl 2xl:text-8xl text-zinc-500">

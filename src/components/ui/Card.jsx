@@ -13,7 +13,10 @@ export default function Card({ card, index }) {
       ${isLast ? "bg-amber-500" : ""}
     `}
     >
-      <div className="text-6xl text-amber-600 group-hover:text-white duration-300">
+      <div  className={`
+           text-amber-600 text-6xl group-hover:rotate-x-180 duration-300
+            ${isLast ? "text-stone-100" : ""}
+          `} >
         *
       </div>
 
@@ -22,9 +25,9 @@ export default function Card({ card, index }) {
         {/* TITLE */}
         <div
           className={`
-            md:text-lg
-            ${isFirst ? "text-stone-200" : ""}
-            ${isLast ? "text-white" : "text-stone-500"}
+            md:text-lg 
+            ${isFirst ? "text-stone-100" : ""}
+            ${isLast ? "text-stone-100" : "text-stone-500"}
           `}
         >
           {title}
@@ -33,9 +36,9 @@ export default function Card({ card, index }) {
         {/* TEXT */}
         <div
           className={`
-            border-t min-h-9 text-sm pt-2
+            border-t  min-h-9 text-sm pt-2
             ${isFirst ? "text-stone-300" : ""}
-            ${isLast ? "text-zinc-800" : "text-stone-400"}
+            ${isLast ? "text-zinc-600" : "text-stone-400"}
           `}
         >
           {text}
