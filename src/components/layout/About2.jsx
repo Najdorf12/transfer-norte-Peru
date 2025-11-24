@@ -11,7 +11,7 @@ export default function About2() {
 
   return (
     <>
-      <section className=" h-[90dvh] md:h-screen relative w-full flex justify-end bg-zinc-800 py-12 px-6 md:px-24 md:py-20 lg:h-screen">
+      <section className=" h-[90vh] md:h-screen relative w-full flex justify-end bg-zinc-800 py-12 px-6 md:px-24 md:py-20 lg:h-screen">
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/mancora/img03.jpg"
@@ -64,7 +64,7 @@ export default function About2() {
         </article>
       </section>
 
-      <section className="relative h-[90dvh] md:h-screen w-full flex justify-center items-center bg-zinc-800 overflow-hidden xl:bg-red-500">
+      <section className="relative h-[90vh] md:h-screen w-full flex justify-center items-center bg-zinc-800 overflow-hidden xl:bg-red-500">
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/mancora/img14.jpg"

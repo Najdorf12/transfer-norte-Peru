@@ -28,7 +28,7 @@ export default function About() {
         </article>
       </section>
 
-      <section className="relative h-[90dvh]  w-full flex flex-col bg-zinc-800 md:flex-row overflow-hidden md:h-screen">
+      <section className="relative h-[90vh]  w-full flex flex-col bg-zinc-800 md:flex-row overflow-hidden md:h-screen">
         <article className="flex flex-col justify-between h-full relative z-10 w-full px-6 py-12 lg:px-20 lg:py-20  md:w-1/2  ">
           <h6 className="text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-zinc-200 font-medium">
             Book Your <br />
