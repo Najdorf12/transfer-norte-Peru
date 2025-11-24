@@ -21,7 +21,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-zinc-900/50 z-20"></div>
 
         <article className="absolute inset-0 z-30 flex flex-col justify-center items-center text-center px-4 ">
-          <h1 className="text-6xl lg:text-8xl xl:text-9xl text-white font-satoshi font-medium text-shadow-md text-shadow-zinc-900">
+          <h1 className="text-6xl lg:text-8xl xl:text-9xl text-white font-satoshi font-medium text-shadow-md text-shadow-zinc-700">
             TRANSFER NORTE
           </h1>
           <div className="text-sm text-stone-300 mt-12 max-w-[300px] md:max-w-[400px] lg:text-base md:mt-6">
