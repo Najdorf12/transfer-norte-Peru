@@ -33,7 +33,7 @@ export default function Form() {
 
         <button
           type="submit"
-          className="bg-amber-600 text-stone-100 font-semibold text-sm h-10 w-[130px] rounded-md mt-6 shadow-md hover:bg-zinc-200 hover:text-amber-500 transition duration-300 hover:scale-105 2xl:text-base 2xl:mt-8"
+          className="bg-amber-600 text-stone-100 font-semibold text-sm h-10 w-[130px] rounded-md mt-6 shadow-md hover:bg-stone-600 hover:text-amber-500 transition duration-300 hover:scale-105 2xl:text-base 2xl:mt-8"
         >
           Send
         </button>

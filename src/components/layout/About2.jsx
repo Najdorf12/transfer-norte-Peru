@@ -35,7 +35,7 @@ export default function About2() {
 
       <section
         id="about"
-        className="relative h-screen w-full flex flex-col md:flex-row overflow-hidden"
+        className="relative h-[95vh] w-full flex flex-col md:flex-row overflow-hidden"
       >
         <div className="z-50 w-full p-9 flex justify-center items-center md:w-1/2 lg:h-full ">
           <img

@@ -44,7 +44,7 @@ export default function Contact() {
           }}
         />
       </div>
-      <div className="relative w-full px-3 mt-2 lg:h-screen flex justify-center items-center lg:w-1/2">
+      <div className="relative w-full px-5 mt-2 lg:h-screen flex justify-center items-center lg:w-1/2">
         <Form />
       </div>
 
